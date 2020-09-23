@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -73,36 +72,37 @@ body {
 	margin-top: 0px;
 }
 
+.content{
+  font-family: "Montserrat", sans-serif;
+  color:white;
+  font-size:25px;
+  text-align:left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+p{
+  padding-top: 20px;
+}
+
 h1{
-  color: white;
+  color:white;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
 }
 
-li, p{
-  font-size: 30px;
-  color:white;
-  text-align: left;
-  padding-left: 100px;
-  padding-top:20px;
+footer {
+  color: white;
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  padding-top:50px
 }
 
-img.one,img.two,img.three,img.four{
+img.eight{
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-  padding-bottom : 50px;
-}
-
-footer{
-  color: white;
-  font-size: 20px;
-  font-family: 'PT Sans', sans-serif;
-}
-
-span {
-  content: "\2022";
-}
-
+  padding-bottom: 50px;
+} 

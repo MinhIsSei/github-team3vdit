@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -70,39 +70,51 @@ body {
 }
 
 #contact {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
-h1{
+h1 {
   color: white;
   text-align: center;
   font-size: 50px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-li, p{
+.news1, .news2, .news3{
   font-size: 30px;
-  color:white;
-  text-align: left;
-  padding-left: 100px;
-  padding-top:20px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  border: 2px;
+  border-color:grey;
+  border-style: solid ;
+  margin-bottom: 20px;
+  margin-left:200px;
+  margin-right:200px;
+  border-radius: 15px;
 }
 
-img.one,img.two,img.three,img.four{
+img.five, img.six, img.seven {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-  padding-bottom : 50px;
+  padding-bottom: 50px;
 }
 
-footer{
+  .alt1 , .alt2, .alt3{
+    font-size: 30px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+p.solid {border-style: solid;}
+
+footer {
   color: white;
   font-size: 20px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
-
-span {
-  content: "\2022";
-}
-
