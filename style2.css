@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -89,7 +90,7 @@ h1{
   color:white;
   text-align: center;
   font-size: 35px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 footer {
